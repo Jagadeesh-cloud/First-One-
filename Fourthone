@@ -1,0 +1,8 @@
+- name: create_directory
+  hosts: all
+  tasks:
+
+  - name: Create directory
+    file:
+     path	: ~ 	/demo_directory_create_through_awx
+     state: directory	
